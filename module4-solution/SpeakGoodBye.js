@@ -2,13 +2,13 @@
 
 var speakWord = "Good Bye";
 
-var byspeaker={
+var bySpeaker={
   speak: function(name){
      console.log(speakWord + " " + name);
 }
 }
   
-window.byspeaker=byspeaker;
+window.bySpeaker=bySpeaker;
 
  
 })(window);
